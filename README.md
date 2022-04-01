@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner3.png" >
+  <img src="banner3.PNG" >
 </p>
 
 # Hello everyone! It's a pleasure to have you here.
