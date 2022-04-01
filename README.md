@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner3.PNG" >
+  <img src="datasciencebannernew.jpg" >
 </p>
 
 # Hello everyone! It's a pleasure to have you here.
@@ -27,16 +27,18 @@ As the projects below demonstrate, I am able to implement a complete Data Scienc
 
 * **Business Problem:** House Rocket's business model consists of purchasing and reselling properties through a digital platform. The data scientist is responsible for developing an online dashboard to help the CEO company overview properties available on House Rocket's portfolio and find the best business opportunities.
 * **Solution:** I specified which properties are recommendable to purchase or not, considering region, median price, and season. I developed an online dashboard on the Heroku platform, making it easy for the CEO to perform data visualization, helping to choose the business decisions to get a high profit.
-* **Business Result:** On the best option, the company must buy 11877 properties resulting in a US$1,420,125,681.90 profit. The profit with the business analysis of the real estate project will probably be 30% of invested value. The CEO can access an online [dashboard](https://p001-eda-real-estate.herokuapp.com/)
+* **Business Result:** On the best option, the company must buy 11877 properties resulting in a US$1,420,125,681.90 profit. The profit with the business analysis of the real estate project will probably be 30% of invested value. The CEO can access an online [dashboard](https:/***)
 * **Project**: [**Exploratory Data Analysis**](https://github.com/joaomj/House-Rocket-Analytics)
 
 ---
 
 ### Curiosities about me:
 
-Professional with six years of experience working in a large company focused on information technology and services.
+x
 
-Solid knowledge in Understanding and solving problems, Oracle EBS and Oracle Database (creation of users, service accounts, and account changes), Prioritizing demands, and Continuous learning of new technologies.
+//Professional with six years of experience working in a large company focused on information technology and services.
+
+//Solid knowledge in Understanding and solving problems, Oracle EBS and Oracle Database (creation of users, service accounts, and account changes), Prioritizing demands, and Continuous learning of new technologies.
 
 * **Areas of Interest:** Data Science, MLOps, Financial Analysis (stocks) and History.
 * Bachelor degree in Computer Science through Sao Paulo State University (UNESP).
