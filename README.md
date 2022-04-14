@@ -6,6 +6,8 @@
 
 Here you will find my professional experiences, skills, tools and projects involving Data Science.
 
+(*take a look at my Data Science [portfolio](https://joaomj.github.io/portfolio_projetos/)*)
+
 As the projects below demonstrate, I am able to implement a complete Data Science project (“end-to-end”), from obtaining business requirements to publishing it in the cloud, including creating tools to access the Machine Learning Models for non-tech people.
 
 ## Skills:
