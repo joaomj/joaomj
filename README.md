@@ -18,10 +18,11 @@ As the projects below demonstrate, I am able to implement a complete Data Scienc
 * **ML Algorithms:** Supervised Learning (Regression, Classification and Learn to Rank). Linear Regression, Logistic Regression, Lasso Regression, Random Forest, XGBoost, ExtraTrees, K-Nearest-Neighbours (KNN).
 * **Data Balancing:** Attribute Selection and Dimensionality Reduction techniques.
 * **ML Performance Metrics:** RMSE, MAE, MAPE, Confusion Matrix, Precision, Recall, Accumulative, ROC and AUC curves.
-* **ML Libraries (Python):** sklearn, scipy, pycaret.
+* **ML Libraries (Python):** sklearn, scipy, pycaret, mlflow.
 * **Version Control:** Git (code versioning), and DVC (data versioning).
 * **APIs:** Flask, Streamlit, Amazon API Gateway.
-* **MLOps:** AWS tools (S3, EC2, Lambda), Heroku cloud, DVC, MLflow.   
+* **MLOps:** AWS tools (S3, EC2, Lambda), Heroku cloud, DVC, Databricks.
+* **Big Data:** PySpark.   
 
 
 ## Data Science Projects:
