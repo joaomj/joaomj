@@ -2,30 +2,62 @@
   <img src="datasciencebannernew.jpg" >
 </p>
 
-# Hello everyone! It's a pleasure to have you here.
+# Hello buddy!
 
-Here you will find my professional experiences, skills, tools and projects involving Data Science.
+Here you will find my professional experiences, skills, tools and projects involving my work with Data.
 
 (*take a look at my Data Science [portfolio](https://joaomj.github.io/portfolio_projetos/)*)
 
-As the projects below demonstrate, I am able to implement a complete Data Science project (“end-to-end”), from obtaining business requirements to publishing it in the cloud, including creating tools to access the Machine Learning Models for non-tech people.
+As my experiences below demonstrate, I am able to implement a complete Data Science project (“end-to-end”), from obtaining business requirements to publishing it in the cloud, including creating tools to access the Machine Learning Models for non-tech people.
 
 ## Skills:
-* **Programming Languages:** Python.
-* **Databases:** SQL (SQLite, PostgreSQL).
-* **Data visualization:** Python libraries (matplotlib, seaborn, folio), Streamlit, Telegram bots.
-* **Descriptive Statistics:** Central Tendency, Dispersion, kurtosis, density.
-* **ML Algorithms:** Supervised Learning (Regression, Classification and Learn to Rank). Linear Regression, Logistic Regression, Lasso Regression, Random Forest, XGBoost, ExtraTrees, K-Nearest-Neighbours (KNN).
-* **Data Balancing:** Attribute Selection and Dimensionality Reduction techniques.
-* **ML Performance Metrics:** RMSE, MAE, MAPE, Confusion Matrix, Precision, Recall, Accumulative, ROC and AUC curves.
-* **ML Libraries (Python):** sklearn, scipy, pycaret, mlflow.
-* **Version Control:** Git (code versioning), and DVC (data versioning).
-* **APIs:** Flask, Streamlit, Amazon API Gateway.
-* **MLOps:** AWS tools (S3, EC2, Lambda), Heroku cloud, DVC, Databricks.
-* **Big Data:** PySpark.   
+* **Programming and Databases**: Python (pandas, sklearn, seaborn, matplotlib, numpy, among others), SQL (PostgreSQL, MySQL), REST APIs (Flask).
+* **Data Science**: Descriptive Statistics, Supervised Machine Learning Algorithms, feature selection, Sklearn, CRISP-DM framework, Jupyter Notebooks, Data Balancing, ML Performance Metrics (RMSE, MAE, MAPE, Confusion Matrix, Precision, Recall, Accumulative, ROC and AUC curves).
+* **Software Engineering**: Git (code versioning, DVC (data versioning), MLFlow (ML experiments tracking), Virtual Environment, Streamlit, Flask, Docker.
+* **Cloud**: Heroku Cloud, AWS (S3, Lambda, and EC2), Azure.
+* **Big Data**: Azure, PySpark, Databricks.
+* **Data Visualization**: Python (Matplotlib, Plotly, Seaborn, Folium), Power BI, Looker, Excel, Streamlit.
+* **Soft Skills**: Experience translating analyses into actionable insights for business teams; accustomed to working in multidisciplinary teams.
+* **Digital Marketing**: Google Analytics, Google Ads, Facebook Ads, Tag Manager.
+* **Data Analysis**: Power BI (DAX, Power Query), Excel, VBA, SQL, data storytelling, agile methodologies (Scrum, Kanban, Trello).
+* **English Level**: C2.
 
+---
+## Professional Experience:
+### Data Mundo (Data Analyst, March 2024 – Present)
+* Followed DataOps protocols to optimize insight generation.
+* Built automation solutions in Business Intelligence using PowerBI (DAX, VBA, and Power Query) and Looker.
+* Developed Power BI dashboards to support business decisions, using Excel and SQL for specific functions.
+* Utilized agile methodologies (Scrum and Kanban) for efficient BI project execution.
+* Marketing Analytics: Google Analytics, Facebook Ads, Google Ads, Google Tag Manager.
+* Conducted exploratory analysis with descriptive statistics and hypothesis testing for clients in e-commerce, marketing, and industrial sectors.
+* Used Streamlit and REST APIs (Flask) to make interactive models available to users.
 
-## Data Science Projects:
+### Ticker Research (Data Scientist, September 2022 - May 2024)
+* Developed predictive models for stock markets with Python.
+* Analyzed large volumes of financial data to identify trends and patterns.
+* Built ETLs in Azure, extracting and transforming data from various sources.
+* Code versioning with Git and machine learning experiments tracking with MLflow.
+* Created dynamic dashboards and detailed reports using Power BI to support data-driven decision-making.
+* Used Streamlit and REST APIs (Flask) to make interactive models available to users.
+
+### KPMG Brazil (Data Scientist, March 2022 - July 2022)
+* Data Science consultant for publicly traded companies in the utilities and industrial sectors.
+* Conducted business analysis to identify opportunities for digital transformation through data tools.
+* Built ETL processes in Big Data environments using Azure technologies.
+* Developed end-to-end Data Science solutions to support predictive maintenance processes for clients, following the CRISP-DM framework.
+* Utilized Databricks for end-to-end data science projects involving massive data volumes (along with Spark).
+* Proficient in Azure services including Data Factory, Synapse, Databricks, and Functions.
+* Performed exploratory analysis (descriptive statistics, hypothesis testing) on complex datasets using Jupyter notebooks.
+* Implemented supervised machine learning techniques such as regression and XGBoost in cloud environments.
+* Code versioning with Git and experiments tracking with MLflow.
+
+---
+## Education
+* Bachelor degree in **Computer Science** through Sao Paulo State University (UNESP) - February, 2014.
+
+---
+## (some) Data Science Learning Projects:
 
 ### Sales Forecast
 * **Business Problem:** The CFO of a drugstore chain wanted a sales forecast for each individual store for the next 06 weeks.
@@ -50,10 +82,8 @@ As the projects below demonstrate, I am able to implement a complete Data Scienc
 * **Project**: [**Exploratory Data Analysis**](https://github.com/joaomj/House-Rocket-Analytics)
 
 ---
-
 ### Curiosities about me:
 
-* **Areas of Interest:** Data Science, MLOps, Financial Analysis (stocks) and History :sunglasses: .
-* Bachelor degree in Computer Science through Sao Paulo State University (UNESP).
+* **Areas of Interest:** Data Science, MLOps, Stock Analysis and History :sunglasses: .
 
 [![Joao's GitHub stats](https://github-readme-stats.vercel.app/api?username=joaomj&show_icons=true&theme=radical)
