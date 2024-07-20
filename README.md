@@ -2,7 +2,7 @@
   <img src="datasciencebannernew.jpg" >
 </p>
 
-# Hello buddy!
+# Hello everyone!
 
 Here you will find my professional experiences, skills, tools and projects involving my work with Data.
 
