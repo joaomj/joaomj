@@ -23,36 +23,6 @@ As my experiences below demonstrate, I am able to implement a complete Data Scie
 * **English Level**: C2.
 
 ---
-## Professional Experience:
-### Data Mundo (Data Analyst, March 2024 – Present)
-* Followed DataOps protocols to optimize insight generation.
-* Built automation solutions in Business Intelligence using PowerBI (DAX, VBA, and Power Query) and Looker.
-* Developed Power BI dashboards to support business decisions, using Excel and SQL for specific functions.
-* Utilized agile methodologies (Scrum and Kanban) for efficient BI project execution.
-* Marketing Analytics: Google Analytics, Facebook Ads, Google Ads, Google Tag Manager.
-* Conducted exploratory analysis with descriptive statistics and hypothesis testing for clients in e-commerce, marketing, and industrial sectors.
-* Used Streamlit and REST APIs (Flask) to make interactive models available to users.
-
-### Ticker Research (Data Scientist, September 2022 - May 2024)
-* Developed predictive models for stock markets with Python.
-* Analyzed large volumes of financial data to identify trends and patterns.
-* Built ETLs in Azure, extracting and transforming data from various sources.
-* Code versioning with Git and machine learning experiments tracking with MLflow.
-* Created dynamic dashboards and detailed reports using Power BI to support data-driven decision-making.
-* Used Streamlit and REST APIs (Flask) to make interactive models available to users.
-
-### KPMG Brazil (Data Scientist, March 2022 - July 2022)
-* Data Science consultant for publicly traded companies in the utilities and industrial sectors.
-* Conducted business analysis to identify opportunities for digital transformation through data tools.
-* Built ETL processes in Big Data environments using Azure technologies.
-* Developed end-to-end Data Science solutions to support predictive maintenance processes for clients, following the CRISP-DM framework.
-* Utilized Databricks for end-to-end data science projects involving massive data volumes (along with Spark).
-* Proficient in Azure services including Data Factory, Synapse, Databricks, and Functions.
-* Performed exploratory analysis (descriptive statistics, hypothesis testing) on complex datasets using Jupyter notebooks.
-* Implemented supervised machine learning techniques such as regression and XGBoost in cloud environments.
-* Code versioning with Git and experiments tracking with MLflow.
-
----
 ## Education
 * Bachelor degree in **Computer Science** through Sao Paulo State University (UNESP) - February, 2014.
 
