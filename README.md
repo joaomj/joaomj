@@ -6,8 +6,6 @@
 
 Here you will find my professional experiences, skills, tools and projects involving my work with Data.
 
-(*take a look at my Data Science [portfolio](https://joaomj.github.io/portfolio_projetos/)*)
-
 As my experiences below demonstrate, I am able to implement a complete Data Science project (“end-to-end”), from obtaining business requirements to publishing it in the cloud, including creating tools to access the Machine Learning Models for non-tech people.
 
 ## Skills:
@@ -27,7 +25,7 @@ As my experiences below demonstrate, I am able to implement a complete Data Scie
 * Bachelor degree in **Computer Science** through Sao Paulo State University (UNESP) - February, 2014.
 
 ---
-## (some) Data Science Learning Projects:
+## (some) Data Science personal projects:
 
 ### Sales Forecast
 * **Business Problem:** The CFO of a drugstore chain wanted a sales forecast for each individual store for the next 06 weeks.
@@ -54,6 +52,6 @@ As my experiences below demonstrate, I am able to implement a complete Data Scie
 ---
 ### Curiosities about me:
 
-* **Areas of Interest:** Data Science, MLOps, Stock Analysis and History :sunglasses: .
+* **Areas of Interest:** ML Engineering, LLMs and History :sunglasses: .
 
 [![Joao's GitHub stats](https://github-readme-stats.vercel.app/api?username=joaomj&show_icons=true&theme=radical)
