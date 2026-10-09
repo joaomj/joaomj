@@ -72,6 +72,6 @@ Earlier in my career, I worked extensively with traditional machine learning, pr
 ---
 ### Curiosities about me:
 
-* **Areas of Interest:** AI engineering, Psychometrics and History :sunglasses: .
+* **Other Areas of Interest:** Psychometrics, History, Tolkien's Middle Earth and Dragon Ball Z :sunglasses: .
 
 [![Joao's GitHub stats](https://github-readme-stats.vercel.app/api?username=joaomj&show_icons=true&theme=radical)
