@@ -1,77 +1,49 @@
-<p align="center">
-  <img src="datasciencebannernew.jpg" >
-</p>
+# Joao Marcos
 
-## Senior AI Engineer | Agentic AI · RAG · Cloud-Native Systems**
+**Senior AI Engineer** — agentic systems, retrieval-augmented generation, and cloud-native AI on AWS.
 
-Hello, i'm Marcos! 
+I build AI systems that survive production: retrieval over millions of scientific documents, agentic workflows on Bedrock, and the evaluations, observability, and guardrails that keep them honest long after the demo.
 
-I build production-grade AI systems, specializing in **LLM applications, retrieval-augmented generation (RAG), and agentic workflows**.
+[LinkedIn](https://linkedin.com/in/joaomj) · [Email](mailto:jmarcos.engineer@pm.me)
 
-My professional experience spans healthcare, biotechnology, life sciences, education, media, and financial services, with a strong focus on **AWS infrastructure, reliability, and software engineering**.
+## Selected work
 
-Currently, I lead the development of an **agentic AI chatbot for a US biotechnology M&A platform**. I've also worked on large-scale RAG systems processing millions of scientific and pharmaceutical documents.
+**[pi-claude-directsdk](https://github.com/joaomj/pi-claude-directsdk)** · TypeScript · 34 stars
+Use a Claude subscription as the model transport inside Pi without breaking Anthropic's terms of service. Pi keeps ownership of the transcript, tools, approvals, and retries; the unmodified Claude Code executable only supplies authentication. Published on npm with CI, release automation, and a qualified CLI version range. My most widely used open-source project.
 
-## What I work on
+**[imladris](https://github.com/joaomj/imladris)** · Python
+A local knowledge base for X bookmarks, the Brave reading list, and scholarly articles. It fetches, deduplicates, cross-references, and summarizes a week of reading, so the backlog stops compounding. Everything stays on the machine, with credentials in the system Keychain.
 
-**LLM & Agentic Systems**
-- Production RAG architectures, retrieval pipelines, grounding, hybrid search, and reranking.
-- Agentic applications, tool integration, MCP servers, and LLM orchestration.
-- Evaluation pipelines, observability, latency optimization, and operational reliability.
+**[computer-cleanup-services](https://github.com/joaomj/computer-cleanup-services)** · Python
+Daily maintenance for Linux and macOS. Regenerable data is cleaned without a prompt; anything that could be application state never is. High-risk items are offered for review only when the machine is actually short of disk, memory, or swap, each answer is remembered, and every item is re-checked immediately before deletion — in use, recently modified, or tracked by Git means kept. Runs on systemd timers and launchd.
 
-**Cloud & Data Infrastructure**
-- AWS: Bedrock, AgentCore, Lambda, Redshift, CloudWatch, S3, and EC2.
-- Snowflake, Cortex AI, dbt, Databricks, and data engineering.
-- CI/CD, deployment automation, and production monitoring.
+Most of my production AI engineering work happens in private enterprise environments. The repositories above are what I build when nobody is paying me to; the rest are on [GitHub](https://github.com/joaomj).
 
-**AI-Assisted Software Engineering**
-- Coding-agent workflows with reusable skills, extensions, and guardrails.
-- Automated quality checks, linters, commit hooks, and GitHub Actions.
-- An emphasis on simplicity, maintainability, reproducibility, and developer productivity.
+## Who am I
 
-## Technical stack
+I have a B.Sc. in Computer Science from UNESP, one of the best universities in Brazil and 6th in Latin America in the QS regional ranking. I started out in classical machine learning: recommendation systems, churn prediction, survival analysis, and predictive maintenance.
 
-| Area | Technologies |
-|---|---|
-| Languages | Python, TypeScript, SQL, Bash |
-| LLM engineering | RAG, MCP, LangChain, LlamaIndex, LangGraph |
-| AWS | Bedrock, AgentCore, Lambda, Redshift, CloudWatch, S3 |
-| Data | Snowflake Cortex AI, dbt, Databricks, PySpark |
-| Software engineering | Git, GitHub Actions, Docker, CI/CD, REST APIs |
-| Machine learning | Scikit-learn, PyTorch, Hugging Face, MLflow |
+Since then my work has moved through data engineering, MLOps, and retrieval, and now agentic systems, in biotechnology, pharmaceutical research, media streaming, and financial services. What I enjoy is the same in every one of them: helping people make decisions based on evidence instead of gut feeling.
 
-## Selected open-source & personal projects
+So modern AI never felt like a new subject to me. It is newer tools for the same job, which is giving a good answer when the information is incomplete.
 
-### [Pi Agent Configuration](https://github.com/joaomj/pi-agent-config)
+Outside of work: I like to read about history, economics, and psychometrics, and I watch Dragon Ball Z (the Cell saga is my favorite!)
 
-My personal configuration and development environment for the Pi coding agent, including custom extensions, reusable skills, MCP integrations, permission controls, and development workflows. Its my current coding agent and i love it!
+## What I believe
 
-### [Anthropic Subscription for Pi Agent](https://github.com/joaomj/pi-claude-directsdk)
+My default mindset is return on investment. I borrowed it from Operational Research: what are we trying to get, what limits us, and what does each option cost?
 
-My first extension for Pi agent. This one allows you to use your Anthropic **subscription** quota inside Pi, with full Terms of Service alignment.
+So before building something, I ask what it will give back and what it will cost to build and to keep running. What does this model cost per answer, and is the better one worth the difference? How do we know the retrieval is any good? If I can't put a number on it, I'm probably still guessing.
 
-### [Video to Text](https://github.com/joaomj/video-to-text)
+Underneath that is one conviction: truth is the most solid thing to hold on to, in any field. I would rather have a measured answer I don't like than a comfortable one I can't check.
 
-A local AI-powered meeting analysis application, designed for private processing.
+## What I do
 
-### [Imladris - Personal Knowledge Base](https://github.com/joaomj/imladris)
+- **Agentic AI and RAG.** Retrieval pipelines over millions of documents: ingestion, chunking, hybrid search, reranking, context assembly, and source traceability. Agentic workflows with tool integration, MCP servers, orchestration, and human-in-the-loop checkpoints. Evaluation harnesses, LLM-as-a-judge scoring, and token cost and latency instrumentation. Tools: LangChain, LlamaIndex, LangGraph, Amazon Bedrock.
+- **Cloud and data.** AWS (Bedrock, AgentCore, Lambda, Redshift, CloudWatch, S3, SageMaker), containerized services on Kubernetes, and REST APIs in front of them. Snowflake Cortex AI, dbt, Databricks, and PySpark for the data layer.
+- **Engineering discipline.** GitHub Actions, release automation, and production monitoring. Prompt versioning, golden datasets, drift monitoring, and guardrails. Agent-assisted development built on reusable skills and commit hooks, so a system stays maintainable by someone other than its author.
+- **Daily languages and wider toolkit.** Python, TypeScript, SQL, and Bash every day. Also GCP (BigQuery, Vertex AI), PyTorch, Hugging Face, scikit-learn, XGBoost, LightGBM, MLflow, survival analysis, recommendation systems, and learning-to-rank when the problem calls for them.
 
-With so many blogs and posts to read it becomes difficult to not feel behind. This is my initiative to tackle this problem. My strategy: fetch, store, organize, cross-reference and summarize my "reading list" weekly.
+## Contact
 
-Most of my production AI engineering work is performed in private enterprise environments. The repositories above reflect my personal experiments, tools, and engineering interests.
-
-## Background
-
-**B.Sc. in Computer Science**, São Paulo State University (UNESP), 2014.
-
-Earlier in my career, I worked extensively with traditional machine learning, predictive modeling, recommendation systems, and data engineering. That experience continues to inform how I design and evaluate modern AI applications.
-
-## Connect
-
-[LinkedIn](https://linkedin.com/in/joaomj) · [GitHub](https://github.com/joaomj) · [Email](mailto:joaomjr@pm.me)
----
-### Curiosities about me:
-
-* **Other Areas of Interest:** Psychometrics, History, Tolkien's Middle Earth and Dragon Ball Z :sunglasses: .
-
-[![Joao's GitHub stats](https://github-readme-stats.vercel.app/api?username=joaomj&show_icons=true&theme=radical)
+Email or LinkedIn is the fastest way to reach me: [email](mailto:jmarcos.engineer@pm.me) · [LinkedIn](https://linkedin.com/in/joaomj).
