@@ -2,47 +2,44 @@
 
 Runs daily via GitHub Actions. Stdlib only, no dependencies.
 
-ASCII art: original 4-star Dragon Ball sphere drawn for this profile.
+ASCII art: Piccolo (Dragon Ball) bust, converted to ASCII for this profile.
 """
-import calendar
 import html
 import json
 import os
 import urllib.request
-from datetime import date, datetime, timezone
+from datetime import datetime, timezone
 
 USER = "joaomj"
-BIRTHDAY = date(1993, 3, 10)
 JOINED_YEAR = 2021  # account creation year, never changes
 W = 56  # info column width in characters
 
 ART = r"""
-
-               %%%%%%%%%%%
-           %%%%%%++++===%%%%%%
-         %%%+++++++++++======%%%
-       %%%++**+++++++++++======%%%
-      %%+*##%%%#:::::::::++=====-%%
-    %%%+*%@@@@@@::::@::::+++=====-%%%
-   %%%+*#@@@@@@@:::@@@:::++++====--%%%
-   %%++*%@@@@@@@:@@@@@@@:++++====---%%
-  %%+++*#%@@@@@@:::@@@:::+++++====---%%
-  %%++++*#%@@@@@::::@::::*++++====---%%
- %%++++++:::::::::::::::::::::::==---:%%
- %%++++++::::@::::#####::::@::::==---:%%
- %%++++++:::@@@:::#####:::@@@:::=----:%%
- %%=+++++:@@@@@@@:####*:@@@@@@@:=---::%%
- %%==++++:::@@@:::*****:::@@@:::----::%%
-  %%==+++::::@::::*****::::@::::---::%%
-  %%====+:::::::::::::::::::::::--:::%%
-   %%=====++++++::::@::::====----:::%%
-   %%%=========+:::@@@:::===----:::%%%
-    %%%=========:@@@@@@@:------:::%%%
-      %%---=====:::@@@:::----::::%%
-       %%%------::::@::::-:::::%%%
-         %%%----:::::::::::::%%%
-           %%%%%%:::::::%%%%%%
-               %%%%%%%%%%%
+                 @@@@@@@
+               @%%%%@@@@@@%#
+             @%##%%%@@@@@@%%@
+    =+      %######%%@@@@%%##+      +=
+     -=+#   +=+*####%%%@%%%%*+   #===
+      --=====-=+*####%%%%%%#***#--==
+       -==::-+++****#########*=:=+=
+        ==:.:=++*#**####%#**+=.-+=
+         =:..:.  =*+****+  :..-==
+           =..--  ..::..: ++-=+
+            -:--=++-=*+##*=--=*
+              +:-+*=-=#%#+-=
+        :-*#+-:::-==--+*+-=-+%%#=:
+      #:.=-:..::..:-+++-.-++-=*#%+.*
+  %#+=+......--.:..:::..:++##=--++.+==*
+**===:::...:--:.::.:.:--+++*%%#*=.:+:-*++
+==-:=-:-::-::::-:::.-+==++*+*##%#-+=   +
+ ==-:=-----=---==:--:==++*##***=-+*
+  ==::----::-*##%###+=##%%%@#===+++++=++
+   -=::-----:-+#%%@@*-##%%%#=-=======+=
+    --::-::--::-+**#*+***+=--=========
+     =:::::::::.:--=++==-:::-----====
+       =:..:::::...:-::...:::::::-=
+           ::................::=
+               -:........:-
 """
 
 # two tokens by design: the Actions GITHUB_TOKEN yields the contribution-style
@@ -68,16 +65,6 @@ def graphql(query, variables=None, token=None):
         raise RuntimeError(resp["errors"])
     return resp["data"]
 
-
-def age(b, t):
-    years = t.year - b.year - ((t.month, t.day) < (b.month, b.day))
-    months = (t.month - b.month - (t.day < b.day)) % 12
-    if t.day >= b.day:
-        days = t.day - b.day
-    else:
-        pm_year, pm = (t.year, t.month - 1) if t.month > 1 else (t.year - 1, 12)
-        days = calendar.monthrange(pm_year, pm)[1] - b.day + t.day
-    return years, months, days
 
 
 def fetch_stats():
@@ -175,13 +162,11 @@ def rule(title=""):
 
 
 def info_lines(s):
-    y, m, d = age(BIRTHDAY, date.today())
     n = lambda x: f"{x:,}"
     return [
         [(f"{USER}@github ", "h"), ("\u2500" * (W - len(USER) - 8), "d")],
         [],
         kv("OS", "macOS, Linux"),
-        kv("Uptime", f"{y} years, {m} months, {d} days"),
         kv("Host", "AWS Cloud / Remote"),
         kv("Kernel", "Senior AI Engineer"),
         kv("IDE", "Pi Agent"),
@@ -221,10 +206,6 @@ def render(mode, stats):
 
 
 def selfcheck():
-    assert age(date(1989, 1, 15), date(2026, 7, 10)) == (37, 5, 25)
-    assert age(date(2000, 3, 31), date(2026, 4, 1)) == (26, 0, 1)
-    assert age(date(2000, 1, 1), date(2026, 1, 1)) == (26, 0, 0)
-    assert age(BIRTHDAY, date(2026, 10, 19)) == (33, 7, 9)
     assert len("".join(t for t, _ in kv("OS", "macOS, Linux"))) == W
 
 
