@@ -14,7 +14,7 @@ I build AI systems that survive production: retrieval over millions of scientifi
 
 ## Selected work
 
-**[pi-claude-directsdk](https://github.com/joaomj/pi-claude-directsdk)** · TypeScript · 34 stars
+**[pi-claude-directsdk](https://github.com/joaomj/pi-claude-directsdk)** · TypeScript
 Use a Claude subscription as the model transport inside Pi without breaking Anthropic's terms of service. Pi keeps ownership of the transcript, tools, approvals, and retries; the unmodified Claude Code executable only supplies authentication. Published on npm with CI, release automation, and a qualified CLI version range. My most widely used open-source project.
 
 **[imladris](https://github.com/joaomj/imladris)** · Python
@@ -22,6 +22,12 @@ A local knowledge base for X bookmarks, the Brave reading list, and scholarly ar
 
 **[computer-cleanup-services](https://github.com/joaomj/computer-cleanup-services)** · Python
 Daily maintenance for Linux and macOS. Regenerable data is cleaned without a prompt; anything that could be application state never is. High-risk items are offered for review only when the machine is actually short of disk, memory, or swap, each answer is remembered, and every item is re-checked immediately before deletion — in use, recently modified, or tracked by Git means kept. Runs on systemd timers and launchd.
+
+**[finrod](https://github.com/joaomj/finrod)** · TypeScript
+A personal AI assistant that runs on a home server and talks through Telegram. One shared bot serves a separate Finrod for each person, with its own memory, history, and credentials. Models stay interchangeable, and memory stays in files the owner controls.
+
+**[video-to-text](https://github.com/joaomj/video-to-text)** · Python
+A meeting recorder for Apple Silicon Macs. It captures the microphone and system audio, then writes a transcript with speaker labels and a separate summary. Transcription (MOSS-Transcribe-Diarize) and the summary (Qwen3.5-9B through llama-server) both run on the Mac, so no audio leaves the machine and there is no per-minute cost. One install script sets everything up, and one `meet` command records and processes.
 
 Most of my production AI engineering work happens in private enterprise environments. The repositories above are what I build when nobody is paying me to; the rest are on [GitHub](https://github.com/joaomj).
 
